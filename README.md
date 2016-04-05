@@ -1,2 +1,2 @@
 # RackeTwitter
-Nick Finocchiaro and Harrison Dejardins 
+Nick Finocchiaro and Harrison Desjardins 
