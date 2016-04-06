@@ -1,6 +1,7 @@
 # Project Title: RackeTwitter
 
 ### Statement
+The point of this project is to create an app for twitter in racket.  It will use a GUI and the FORGETLIBNAME library to allow the user to login to their Twitter account, tweet and retweet, and search for specific hashtags.  It will be interesting to see how racket can be used to create such an app.  
 Describe your project. Why is it interesting? Why is it interesting to you personally? What do you hope to learn? 
 
 ### Analysis
@@ -58,16 +59,8 @@ What additionally will be done in the last chunk of time?
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
-**Additional instructions for teams of three:** 
-* Remember that you must have prior written permission to work in groups of three (specifically, an approved `FP3` team declaration submission).
-* The team must nominate a lead. This person is primarily responsible for code integration. This work may be shared, but the team lead has default responsibility.
-* The team lead has full partner implementation responsibilities also.
-* Identify who is team lead.
-
-In the headings below, replace the silly names and GitHub handles with your actual ones.
-
 ### Harrison Desjardins @HTDesjardins
-gui stuff
+I will be working on the GUI portion of the project.  I hope by the first milestone to have a basic gui with a login screen that will take a username and password.  By the second milestone I want to have the gui allowing the user to login with their password being hidden when typed and I would like the user to be able to post tweets.  By the final milestone I would like to have the gui set up for the search and retweet functions.  I would also want to clean it up and make it look nice by this point.
 
 ### Nick Finocchiaro @nickfinocchiaro
 Will work on backgroud stuff
