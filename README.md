@@ -66,11 +66,8 @@ Here each group member gets a section where they, as an individual, detail what 
 
 In the headings below, replace the silly names and GitHub handles with your actual ones.
 
-### Susan Scheme @susanscheme
-will write the....
+### Harrison Desjardins @HTDesjardins
+gui stuff
 
-### Leonard Lambda @lennylambda
-will work on...
-
-### Frank Functions @frankiefunk 
-Frank is team lead. Additionally, Frank will work on...   
+### Nick Finocchiaro @nickfinocchiaro
+Will work on backgroud stuff
