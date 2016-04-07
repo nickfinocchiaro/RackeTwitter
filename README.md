@@ -4,9 +4,7 @@
 The point of this project is to create an app for twitter in racket.  It will use a GUI and the FORGETLIBNAME library to allow the user to login to their Twitter account, tweet and retweet, and search for specific hashtags.  It will be interesting to see how racket can be used to create such an app.  
 
 ### Analysis
-Explain what approaches from class you will bring to bear on the project. Be explicit: e.g., will you use recursion? How? Will you use map/filter/reduce? How? Will you use data abstraction? Will you use object-orientation? Will you use functional approaches to processing your data? Will you use state-modification approaches? A combination?
-
-The idea here is to identify what ideas from the class you will use in carrying out your project. 
+We will be using Map, filter, and reduce to parse the data we recieve from the twitter server.  I will also be using data abstraction to protect the password. 
 
 ### Data set or other source materials
 If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
