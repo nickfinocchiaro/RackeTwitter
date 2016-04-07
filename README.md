@@ -2,7 +2,6 @@
 
 ### Statement
 The point of this project is to create an app for twitter in racket.  It will use a GUI and the FORGETLIBNAME library to allow the user to login to their Twitter account, tweet and retweet, and search for specific hashtags.  It will be interesting to see how racket can be used to create such an app.  
-Describe your project. Why is it interesting? Why is it interesting to you personally? What do you hope to learn? 
 
 ### Analysis
 Explain what approaches from class you will bring to bear on the project. Be explicit: e.g., will you use recursion? How? Will you use map/filter/reduce? How? Will you use data abstraction? Will you use object-orientation? Will you use functional approaches to processing your data? Will you use state-modification approaches? A combination?
@@ -21,7 +20,6 @@ If you are using some other starting materails, explain what they are. Basically
 ### Deliverable and Demonstration
 By the end of this project we want to be able to demo an app that allows the user to connect to their twitter acount, look up specific hashtags, and tweet/retweet.  For the live demo we could log into an acount and tweet something.  We can then prove it worked by showing the tweet on the twitter website.
 
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
 
 What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
 
@@ -31,7 +29,9 @@ Will it be interactive? Can you show it working? This project involves a live de
 
 ### Evaluation of Results
 How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be good.
+A brief expectation of our results would be that user is able to post a tweet to their account and then go and view that tweet on another
+brower or application. For quantitative search results we will be comparing our results of a hashtag search to that of a hashtag search
+on twitter's website. 
 
 ## Architecture Diagram
 Upload the architecture diagram you made for your slide presentation to your repository, and include it in-line here.
