@@ -32,9 +32,17 @@ brower or application. For quantitative search results we will be comparing our 
 on twitter's website. 
 
 ## Architecture Diagram
-Upload the architecture diagram you made for your slide presentation to your repository, and include it in-line here.
+![Diag](https://github.com/oplS16projects/RackeTwitter/blob/master/workflowDiagram.png)
 
-Create several paragraphs of narrative to explain the pieces and how they interoperate.
+The diagram shows that the user will input their data which will then be sent to the twitter data base throught racket making use of the OAuth racket Library. Then we will make api calls in racket using 
+```
+procedure
+(post-pure-port URL post [header]) → input-port?
+  URL : url?
+  post : bytes?
+  header : (listof string?) = null
+```
+and then when the data is sent back from twitter we will need to parse it as it will be returned in the JSON format. Here we will need to use the JSON racket library. After Parsing the data, it will be displayed to the user in the gui. 
 
 ## Schedule
 Explain how you will go from proposal to finished product. 
