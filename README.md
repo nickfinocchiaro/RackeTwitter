@@ -19,6 +19,8 @@ Do your homework here: if you are pulling data from somewhere, actually go downl
 If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
 
 ### Deliverable and Demonstration
+By the end of this project we want to be able to demo an app that allows the user to connect to their twitter acount, look up specific hashtags, and tweet/retweet.  For the live demo we could log into an acount and tweet something.  We can then prove it worked by showing the tweet on the twitter website.
+
 Explain exactly what you'll have at the end. What will it be able to do at the live demo?
 
 What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
@@ -48,13 +50,13 @@ You will be expected to turn in code, documentation, and data (as appropriate) a
 Write concrete steps for your schedule to move from concept to working system. 
 
 ### First Milestone (Fri Apr 15)
-What exactly will be turned in on this day? 
+The basic GUI should be set up for testing and allow the user to give their username and password.
 
 ### Second Milestone (Fri Apr 22)
-What exactly will be turned in on this day? 
+The GUI will allow the user to login to twitter and make a basic post.  I also want the password to be hidden when it is typed in.
 
 ### Final Presentation (last week of semester)
-What additionally will be done in the last chunk of time?
+By this time the GUI should be cleaned up and should allow the user to search for specific hashtags and retweet.
 
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
