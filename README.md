@@ -65,4 +65,9 @@ Here each group member gets a section where they, as an individual, detail what 
 I will be working on the GUI portion of the project.  I hope by the first milestone to have a basic gui with a login screen that will take a username and password.  By the second milestone I want to have the gui allowing the user to login with their password being hidden when typed and I would like the user to be able to post tweets.  By the final milestone I would like to have the gui set up for the search and retweet functions.  I would also want to clean it up and make it look nice by this point.
 
 ### Nick Finocchiaro @nickfinocchiaro
-Will work on backgroud stuff
+Nick will be working on the backend of the project. This includes working with the OAuth Racket library as well as creating a new
+twitter app to obtain the access tokens needed to communicate with the database. This library allows us to securely connect to twitter
+and query the data base for tweets as well as post them. For the first milestone, I hope to have a working login screen that will accept
+the user's account name and password and successfully log them in. Second milestone will be that the user is able to post a tweet. The
+Final milestone is that the user can seach a hashtag and have the results returned to the gui. Twitter will return all query's in JSON
+format so I will also need to be implementing a JSON parser to make the ouput readable for the common user. 
