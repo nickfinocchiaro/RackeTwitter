@@ -45,15 +45,7 @@ procedure
 and then when the data is sent back from twitter we will need to parse it as it will be returned in the JSON format. Here we will need to use the JSON racket library. After Parsing the data, it will be displayed to the user in the gui. 
 
 ## Schedule
-Explain how you will go from proposal to finished product. 
-
-There are three deliverable milestones to explicitly define, below.
-
-The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
-
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages.
-
-Write concrete steps for your schedule to move from concept to working system. 
+- Nick created a Twitter application via twitter's website for authentification credentials to be used by RacketTwitter. 
 
 ### First Milestone (Fri Apr 15)
 The basic GUI should be set up for testing and allow the user to give their username and password.
