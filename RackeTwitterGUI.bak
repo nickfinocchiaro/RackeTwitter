@@ -2,9 +2,6 @@
 
 (require racket/gui/base)
 
-(define user_name '())
-(define password '())
-
 ;Starting frame for RackeTwitter
 (define frame (new frame% [label "RackeTwitter"]
                           [width 300]
@@ -33,9 +30,9 @@
                 [width 500]))
  
 ; Add a text field to the dialog for login
-(define user (new text-field% [parent dialog] [label "Username:"]))
-(define pass (new text-field% [parent dialog] [label "Password: "]
-                                 [style '(password single)]))
+(new text-field% [parent dialog] [label "Username:"])
+(new text-field% [parent dialog] [label "Password: "]
+                                 [style '(password single)])
  
 ; Add a horizontal panel to the dialog, with centering for buttons
 (define panel2 (new horizontal-panel% [parent dialog]
@@ -45,10 +42,7 @@
 (new button% [parent panel2] [label "Cancel"]
                             [callback (lambda (button event)
                                         (send dialog show #f))])
-(new button% [parent panel2] [label "Ok"]
-                             [callback (lambda (button event)
-                                         ( and (set! user_name (send user get-value)) (set! password (send pass get-value))
-                                               (send dialog show #f) (send user set-value "") (send pass set-value "")))])
+(new button% [parent panel2] [label "Ok"])
 
 
 
