@@ -1,9 +1,24 @@
 #lang racket
 
-(require racket/gui/base)
+(require "oauth-single-user.rkt"
+  racket/gui/base)
 
 (define user_name '())
 (define password '())
+
+(define twitter-oauth (new oauth-single-user%  
+     [consumer-key '()]
+     [consumer-secret '()]
+     [access-token '()]
+     [access-token-secret '()]))
+
+(define (twitter-obj key secret-key token secret-token)
+  (set! twitter-oauth (new oauth-single-user%  
+     [consumer-key key]
+     [consumer-secret secret-key]
+     [access-token token]
+     [access-token-secret secret-token])))
+
 
 ;Starting frame for RackeTwitter
 (define frame (new frame% [label "RackeTwitter"]
