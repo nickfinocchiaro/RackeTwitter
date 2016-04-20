@@ -3,6 +3,9 @@
 (require "oauth-single-user.rkt"
   racket/gui/base)
 
+(define user_name '())
+(define password '())
+
 (define twitter-oauth (new oauth-single-user%  
      [consumer-key '()]
      [consumer-secret '()]
